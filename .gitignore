@@ -10,6 +10,8 @@
 !src/**
 !tests/
 !tests/**
+!examples/
+!examples/**
 
 AGENTS.md
 .internal/
