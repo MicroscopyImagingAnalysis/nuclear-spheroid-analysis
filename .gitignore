@@ -1,0 +1,21 @@
+# Public source-distribution allowlist.
+*
+!.gitignore
+!.github/
+!.github/**
+!README.md
+!LICENSE
+!pyproject.toml
+!src/
+!src/**
+!tests/
+!tests/**
+
+AGENTS.md
+.internal/
+**/__pycache__/
+**/*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.egg-info/

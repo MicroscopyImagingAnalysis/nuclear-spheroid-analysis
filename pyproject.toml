@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nuclear-spheroid-analysis"
+version = "0.1.0"
+description = "Two- and three-dimensional nuclear spheroid analysis workflows"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+  "matplotlib",
+  "nuclear-imaging-core>=0.1.0",
+  "numpy",
+  "pandas",
+  "scikit-image",
+  "scipy",
+  "tifffile",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
